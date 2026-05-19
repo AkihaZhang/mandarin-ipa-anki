@@ -1,0 +1,431 @@
+[
+  {
+    "final": "an / ai 环境",
+    "ipa": "[a]",
+    "example_hanzi": "安",
+    "example_word": "安全 /an˥ t͡ɕʰɥæn˧˥/",
+    "articulation": "开前不圆唇元音。",
+    "explanation_for_native_chinese": " an、ai 等环境中的 a 细分为 [a]。",
+    "common_misconception": "不要以为拼音 a 在所有韵母里都只有同一个 IPA 细节写法。",
+    "notes": "补充说明： /ä/ 与韵尾之间有元音和谐，/i̯, n/ 前为 /a/。",
+    "tags": [
+      "vowel",
+      "open"
+    ]
+  },
+  {
+    "final": "a",
+    "ipa": "[ä]",
+    "example_hanzi": "阿",
+    "example_word": "大巴 /tä˥˩ pä˥/",
+    "articulation": "中央偏前的开元音。",
+    "explanation_for_native_chinese": "单独的 a 写作 [ä]。",
+    "common_misconception": "这不是拼音以外的新韵母，而是对 a 音值的细分。",
+    "notes": "很多入门资料会宽式写 [a]；这里采用这组写法。",
+    "tags": [
+      "vowel",
+      "open"
+    ]
+  },
+  {
+    "final": "ang / ao 环境",
+    "ipa": "[ɑ]",
+    "example_hanzi": "昂",
+    "example_word": "昂贵 /ɑŋ˧˥ kweɪ˥˩/",
+    "articulation": "开后不圆唇元音。",
+    "explanation_for_native_chinese": " ang、ao 等环境中的 a 细分为 [ɑ]。",
+    "common_misconception": "ang 的 a 不一定和单独 a 用同一个窄式符号。",
+    "notes": "补充说明： /u̯, ŋ/ 前为 /ɑ/。",
+    "tags": [
+      "vowel",
+      "open",
+      "back"
+    ]
+  },
+  {
+    "final": "ê / ye / ie",
+    "ipa": "[e̞]",
+    "example_hanzi": "夜",
+    "example_word": "夜晚 /je̞˥˩ wan˨˩˦/",
+    "articulation": "降低的半闭前不圆唇元音。",
+    "explanation_for_native_chinese": " ê、ye、ie 的主元音写作 [e̞]。",
+    "common_misconception": "ie 不是 i + 普通拼音 e 的机械组合。",
+    "notes": "下标 ̞ 表示比 [e] 略低。",
+    "tags": [
+      "vowel",
+      "front",
+      "lowered"
+    ]
+  },
+  {
+    "final": "en / un",
+    "ipa": "[ə]",
+    "example_hanzi": "恩",
+    "example_word": "认真 /ɻən˥˩ t͡ʂən˥/",
+    "articulation": "央元音。",
+    "explanation_for_native_chinese": " en 和 un 中的元音写作 [ə]。",
+    "common_misconception": "拼音 e 在 en 里不等于单韵母 e 的 [ɤ]。",
+    "notes": "补充说明也提醒 uen 在辅音后写作 un。",
+    "tags": [
+      "vowel",
+      "central"
+    ]
+  },
+  {
+    "final": "-r / 儿化",
+    "ipa": "[ɚ]",
+    "example_hanzi": "鱼儿",
+    "example_word": "鱼儿 /ɥɚ˧˥/",
+    "articulation": "卷舌化元音。",
+    "explanation_for_native_chinese": " -r/儿化中的一个常见音值写作 [ɚ]。",
+    "common_misconception": "儿化不是简单在末尾加一个普通 r 声母。",
+    "notes": "标注多个儿化相关元音；这些项只出现在儿化音中。",
+    "tags": [
+      "vowel",
+      "rhotic",
+      "erhua"
+    ]
+  },
+  {
+    "final": "a/e/ingr 儿化",
+    "ipa": "[ɚ̃]",
+    "example_hanzi": "风儿",
+    "example_word": "风儿 /fɚ̃˥/",
+    "articulation": "鼻化卷舌化元音。",
+    "explanation_for_native_chinese": "可见 [ɚ̃]，用于部分儿化环境。",
+    "common_misconception": "儿化会影响前面的韵母，不只是末尾多一个音。",
+    "notes": "波浪号 ̃ 表示鼻化；这里保留这个细分写法。",
+    "tags": [
+      "vowel",
+      "rhotic",
+      "nasalized",
+      "erhua"
+    ]
+  },
+  {
+    "final": "yan / -i",
+    "ipa": "[ɛ]",
+    "example_hanzi": "延",
+    "example_word": "演员 /jɛn˨˩˦ ɥɛn˧˥/",
+    "articulation": "半开前不圆唇元音。",
+    "explanation_for_native_chinese": " yan 等环境中的主要元音写作 [ɛ]。",
+    "common_misconception": "yan 不应机械拆成 y + i + an 的字母音。",
+    "notes": "常见于 yan 等环境；这里用 [ɛ] 强调它不是普通 [i] 后面机械接 an。",
+    "tags": [
+      "vowel",
+      "front"
+    ]
+  },
+  {
+    "final": "i / yi / -in / -ing",
+    "ipa": "[i]",
+    "example_hanzi": "亿",
+    "example_word": "意义 /ji˥˩ ji˥˩/",
+    "articulation": "闭前不圆唇元音。",
+    "explanation_for_native_chinese": " yi、-in、-ing 等普通 i 类音写作 [i]。",
+    "common_misconception": "zi/ci/si 和 zhi/chi/shi/ri 后的 i 不在这个 [i] 条目下。",
+    "notes": "这里把 zi/ci/si 类写成 [ɹ̩]，zhi/chi/shi/ri 类写成 [ɻ̩]。",
+    "tags": [
+      "vowel",
+      "front",
+      "high"
+    ]
+  },
+  {
+    "final": "o",
+    "ipa": "[o̞]",
+    "example_hanzi": "哦",
+    "example_word": "波浪 /po̞˥ lɑŋ˥˩/",
+    "articulation": "降低的半闭后圆唇元音。",
+    "explanation_for_native_chinese": "单独 o 写作 [o̞]。",
+    "common_misconception": "o 不是英语字母 o 的读法，也不总等于 uo。",
+    "notes": "补充说明： uo 于 b/f/m/p 后写为 o。",
+    "tags": [
+      "vowel",
+      "rounded",
+      "back",
+      "lowered"
+    ]
+  },
+  {
+    "final": "or 儿化",
+    "ipa": "[o̞˞]",
+    "example_hanzi": "窝儿",
+    "example_word": "窝儿 /wo̞˞˥/",
+    "articulation": "卷舌化的 [o̞]。",
+    "explanation_for_native_chinese": "可见 [o̞˞]，用于 or 儿化。",
+    "common_misconception": "儿化后的 o 不一定仍按普通 o 来理解。",
+    "notes": "上标 ˞ 表示卷舌化/儿化。",
+    "tags": [
+      "vowel",
+      "rhotic",
+      "erhua"
+    ]
+  },
+  {
+    "final": "ue(n) / üe(n)",
+    "ipa": "[œ̜]",
+    "example_hanzi": "月",
+    "example_word": "月亮 /ɥœ̜˥˩ ljɑŋ˥˩/",
+    "articulation": "较开前圆唇元音，带不完全圆唇记号。",
+    "explanation_for_native_chinese": " j/q/x/y 后的 ue(n)/üe(n) 主元音写作 [œ̜]。",
+    "common_misconception": "yue 里的 u 不是 [u]，而是 ü 类前圆唇系统。",
+    "notes": "补充说明： ü 于 j/q/x/y 后拼作 u。",
+    "tags": [
+      "vowel",
+      "front_rounded"
+    ]
+  },
+  {
+    "final": "u",
+    "ipa": "[u]",
+    "example_hanzi": "无",
+    "example_word": "无人 /wu˧˥ ɻən˧˥/",
+    "articulation": "闭后圆唇元音。",
+    "explanation_for_native_chinese": "普通 u 类元音写作 [u]。",
+    "common_misconception": "ju/qu/xu/yu 中拼写的 u 不属于这个 [u]。",
+    "notes": "补充说明： j/q/x/y 后的 u 拼写实际对应 ü 系统。",
+    "tags": [
+      "vowel",
+      "back",
+      "rounded",
+      "high"
+    ]
+  },
+  {
+    "final": "ur 儿化",
+    "ipa": "[u˞]",
+    "example_hanzi": "簿儿",
+    "example_word": "兔儿 /tʰu˞˥˩/",
+    "articulation": "卷舌化的 [u]。",
+    "explanation_for_native_chinese": "可见 [u˞]，用于 -ur 儿化。",
+    "common_misconception": "儿化不是简单把 u 后面拼一个 r。",
+    "notes": "这里保留这个细分写法。",
+    "tags": [
+      "vowel",
+      "rhotic",
+      "erhua"
+    ]
+  },
+  {
+    "final": "ong",
+    "ipa": "[ʊ]",
+    "example_hanzi": "工",
+    "example_word": "工作 /kʊŋ˥ t͡swo˥˩/",
+    "articulation": "近闭后圆唇元音。",
+    "explanation_for_native_chinese": " ong 中的元音写作 [ʊ]。",
+    "common_misconception": "ong 不应机械看成 o + ng。",
+    "notes": "常见于 ong 环境；这里把主要元音细分为 [ʊ]。",
+    "tags": [
+      "vowel",
+      "rounded",
+      "back"
+    ]
+  },
+  {
+    "final": "ongr 儿化",
+    "ipa": "[ʊ̃˞]",
+    "example_hanzi": "洞儿",
+    "example_word": "洞儿 /tʊ̃˞˥˩/",
+    "articulation": "鼻化、卷舌化的 [ʊ]。",
+    "explanation_for_native_chinese": "可见 [ʊ̃˞]，用于 -ongr 儿化。",
+    "common_misconception": "儿化和鼻化可以同时影响韵母音值。",
+    "notes": "这是细节识别项，用于认识较细的儿化写法。",
+    "tags": [
+      "vowel",
+      "rhotic",
+      "nasalized",
+      "erhua"
+    ]
+  },
+  {
+    "final": "e",
+    "ipa": "[ɤ]",
+    "example_hanzi": "厄",
+    "example_word": "俄语 /ɤ˧˥ y˨˩˦/",
+    "articulation": "后不圆唇元音。",
+    "explanation_for_native_chinese": "普通 e 写作 [ɤ]。",
+    "common_misconception": "普通话 e 不是英语 bed 里的 e。",
+    "notes": "另可见 [ɤ̞] 用于 eng 环境。",
+    "tags": [
+      "vowel",
+      "back",
+      "unrounded"
+    ]
+  },
+  {
+    "final": "eng",
+    "ipa": "[ɤ̞]",
+    "example_hanzi": "仍",
+    "example_word": "仍然 /ɻɤ̞ŋ˧˥ ɻan˧˥/",
+    "articulation": "降低的后不圆唇元音。",
+    "explanation_for_native_chinese": " eng 中的元音写作 [ɤ̞]。",
+    "common_misconception": "eng 不是 e + n + g 的机械组合；这里的元音也受 ŋ 影响。",
+    "notes": "补充说明： /ɤ/ 与韵尾之间存在元音和谐，/ŋ/ 前是 /ɤ̞/。",
+    "tags": [
+      "vowel",
+      "back",
+      "lowered"
+    ]
+  },
+  {
+    "final": "er 儿化",
+    "ipa": "[ɤ˞]",
+    "example_hanzi": "个儿",
+    "example_word": "个儿 /kɤ˞˥˩/",
+    "articulation": "卷舌化的 [ɤ]。",
+    "explanation_for_native_chinese": "可见 [ɤ˞]，用于部分 er 儿化环境。",
+    "common_misconception": "er/儿化在不同韵母后可以有不同 IPA 写法。",
+    "notes": "这里保留这个细分写法。",
+    "tags": [
+      "vowel",
+      "rhotic",
+      "erhua"
+    ]
+  },
+  {
+    "final": "ü / yu(n)",
+    "ipa": "[y]",
+    "example_hanzi": "于",
+    "example_word": "语音 /y˨˩˦ jin˥/",
+    "articulation": "闭前圆唇元音。",
+    "explanation_for_native_chinese": " ü/yu(n) 写作 [y]。",
+    "common_misconception": "拼音 yu、ju、qu、xu 里的 u 不是 [u]。",
+    "notes": "补充说明： ü 于 j/q/x/y 后拼作 u，因为不会出现 [u]/[w]。",
+    "tags": [
+      "vowel",
+      "front_rounded",
+      "high"
+    ]
+  },
+  {
+    "final": "ai",
+    "ipa": "[ai̯]",
+    "example_hanzi": "艾",
+    "example_word": "爱好 /ʔai̯˥˩ xɑu̯˥˩/",
+    "articulation": "双元音，从 [a] 滑向非音节性 [i̯]。",
+    "explanation_for_native_chinese": " ai 写作 [ai̯]。",
+    "common_misconception": "ai 是一个音节内部的滑动，不是两个独立音节。",
+    "notes": "下方短弧 ̯ 表示非音节性成分。",
+    "tags": [
+      "diphthong"
+    ]
+  },
+  {
+    "final": "-r",
+    "ipa": "[äɚ̯]",
+    "example_hanzi": "二",
+    "example_word": "二十 /ʔäɚ̯˥˩ ʂɻ̩˧˥/",
+    "articulation": "儿化相关双元音。",
+    "explanation_for_native_chinese": " -r 的一个形式写作 [äɚ̯]。",
+    "common_misconception": "儿化可以表现为带滑动的复合音值，不只是一个简单 r。",
+    "notes": "这里保留这个细分写法。",
+    "tags": [
+      "diphthong",
+      "rhotic",
+      "erhua"
+    ]
+  },
+  {
+    "final": "angr 儿化",
+    "ipa": "[ä̃ɚ̯̃]",
+    "example_hanzi": "房儿",
+    "example_word": "房儿 /fä̃ɚ̯̃˧˥/",
+    "articulation": "鼻化儿化双元音。",
+    "explanation_for_native_chinese": "可见 [ä̃ɚ̯̃]，用于部分 -angr 儿化环境。",
+    "common_misconception": "儿化可同时带来鼻化和卷舌化细节。",
+    "notes": "这是细节识别项，用于认识较细的儿化写法。",
+    "tags": [
+      "diphthong",
+      "rhotic",
+      "nasalized",
+      "erhua"
+    ]
+  },
+  {
+    "final": "yanr / -i/-u/-ü 儿化",
+    "ipa": "[ɐɚ̯]",
+    "example_hanzi": "烟儿",
+    "example_word": "烟儿 /jɐɚ̯˥/",
+    "articulation": "儿化相关双元音。",
+    "explanation_for_native_chinese": "可见 [ɐɚ̯]，用于 yanr 等儿化环境。",
+    "common_misconception": "儿化后的韵母可能与原始拼音韵母差别很大。",
+    "notes": "这里保留这个细分写法。",
+    "tags": [
+      "diphthong",
+      "rhotic",
+      "erhua"
+    ]
+  },
+  {
+    "final": "ao",
+    "ipa": "[ɑu̯]",
+    "example_hanzi": "奥",
+    "example_word": "奥运 /ʔɑu̯˥˩ yn˥˩/",
+    "articulation": "双元音，从 [ɑ] 滑向非音节性 [u̯]。",
+    "explanation_for_native_chinese": " ao 写作 [ɑu̯]。",
+    "common_misconception": "ao 不是 a + o 两个完整元音。",
+    "notes": "这里采用这组写法。",
+    "tags": [
+      "diphthong"
+    ]
+  },
+  {
+    "final": "aor 儿化",
+    "ipa": "[ɑu̯˞]",
+    "example_hanzi": "包儿",
+    "example_word": "包儿 /pɑu̯˞˥/",
+    "articulation": "卷舌化双元音。",
+    "explanation_for_native_chinese": "可见 [ɑu̯˞]，用于 -aor 儿化。",
+    "common_misconception": "ao 儿化后不只是末尾加 r。",
+    "notes": "这里保留这个细分写法。",
+    "tags": [
+      "diphthong",
+      "rhotic",
+      "erhua"
+    ]
+  },
+  {
+    "final": "ei / ui",
+    "ipa": "[ei̯]",
+    "example_hanzi": "欸",
+    "example_word": "北方 /pei̯˨˩˦ fɑŋ˥/",
+    "articulation": "双元音，从 [e] 滑向非音节性 [i̯]。",
+    "explanation_for_native_chinese": " ei 和 ui 中的核心滑动写作 [ei̯]。",
+    "common_misconception": "ui 是 uei 的省写，不是 u + i 的简单相加。",
+    "notes": "补充说明： uei 在辅音后写作 ui。",
+    "tags": [
+      "diphthong",
+      "spelling_abbreviation"
+    ]
+  },
+  {
+    "final": "ou / iu",
+    "ipa": "[ou̯]",
+    "example_hanzi": "怄",
+    "example_word": "欧洲 /ʔou̯˥ ʈ͡ʂou̯˥/",
+    "articulation": "双元音，从 [o] 滑向非音节性 [u̯]。",
+    "explanation_for_native_chinese": " ou 和 iu 中的核心滑动写作 [ou̯]。",
+    "common_misconception": "iu 是 iou 的省写，不是 i + u 两个完整元音。",
+    "notes": "补充说明： iou 在辅音后写作 iu。",
+    "tags": [
+      "diphthong",
+      "spelling_abbreviation"
+    ]
+  },
+  {
+    "final": "our 儿化",
+    "ipa": "[ou̯˞]",
+    "example_hanzi": "勾儿",
+    "example_word": "勾儿 /kou̯˞˥/",
+    "articulation": "卷舌化双元音。",
+    "explanation_for_native_chinese": "可见 [ou̯˞]，用于 -our 儿化。",
+    "common_misconception": "儿化韵母的 IPA 常常不是原韵母加一个字母 r。",
+    "notes": "这里保留这个细分写法。",
+    "tags": [
+      "diphthong",
+      "rhotic",
+      "erhua"
+    ]
+  }
+]

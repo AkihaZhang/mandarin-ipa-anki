@@ -1,0 +1,79 @@
+[
+  {
+    "tone_number": 1,
+    "tone_name_cn": "第一声 / 阴平",
+    "contour": "55",
+    "ipa_tone_letters": "˥˥",
+    "example": "啊 /ʔä˥˥/",
+    "explanation_for_native_chinese": "一声描述为高平调，调值 55，调符写作 ˥˥。",
+    "common_misconception": "一声不是单纯拉长；核心是高而平。",
+    "notes": "调值数字是相对音高，不是绝对频率。",
+    "tags": [
+      "tone"
+    ],
+    "example_hanzi": "妈、天、书",
+    "example_word": "天空 /tʰjɛn˥˥ kʰʊŋ˥˥/、书包 /ʂu˥˥ pɑu̯˥˥/"
+  },
+  {
+    "tone_number": 2,
+    "tone_name_cn": "第二声 / 阳平",
+    "contour": "35",
+    "ipa_tone_letters": "˧˥",
+    "example": "啊 /ʔä˧˥/",
+    "explanation_for_native_chinese": "二声描述为中升调，调值 35，调符写作 ˧˥。",
+    "common_misconception": "二声不是“疑问语气”，而是一个稳定的上升声调轮廓。",
+    "notes": "实际语流中的起点和终点会受前后音节影响。",
+    "tags": [
+      "tone"
+    ],
+    "example_hanzi": "麻、人、学",
+    "example_word": "人民 /ɻən˧˥ min˧˥/、学习 /ɕɥɛ˧˥ ɕi˧˥/"
+  },
+  {
+    "tone_number": 3,
+    "tone_name_cn": "第三声 / 上声",
+    "contour": "214 / 211 / 14",
+    "ipa_tone_letters": "˨˩˦ / ˨˩˩ / ˩˦",
+    "example": "啊 /ʔä˨˩˦/",
+    "explanation_for_native_chinese": "可见三声的多个变体：次低降升调 214、次低降平调 211，以及变调相关的中升调 14。",
+    "common_misconception": "三声在连续语流中不总是完整读成 214。",
+    "notes": "补充说明把这些差异和变调联系起来；卡片正面保留多个调符，训练读表能力。",
+    "tags": [
+      "tone",
+      "tone_sandhi"
+    ],
+    "example_hanzi": "马、你、好",
+    "example_word": "可爱 /kʰɤ˨˩˦ ʔai̯˥˩/、语文 /y˨˩˦ wən˧˥/"
+  },
+  {
+    "tone_number": 4,
+    "tone_name_cn": "第四声 / 去声",
+    "contour": "51 / 53",
+    "ipa_tone_letters": "˥˩ / ˥˧",
+    "example": "啊 /ʔä˥˩/",
+    "explanation_for_native_chinese": "四声描述为高降调，可写 51，也列出 53 变体。",
+    "common_misconception": "四声不是简单“重读”，而是高起下降。",
+    "notes": "语速和语境会影响终点高低；可保留多个写法。",
+    "tags": [
+      "tone"
+    ],
+    "example_hanzi": "骂、去、谢",
+    "example_word": "电话 /tjɛn˥˩ xwa˥˩/、世界 /ʂɻ̩˥˩ t͡ɕjɛ˥˩/"
+  },
+  {
+    "tone_number": 5,
+    "tone_name_cn": "轻声",
+    "contour": "21 / 31 / 41 / 11，依前一声调",
+    "ipa_tone_letters": "˨˩ / ˧˩ / ˦˩ / ˩˩",
+    "example": "啊 /ʔä˨˩/、/ʔä˧˩/、/ʔä˦˩/、/ʔä˩˩/",
+    "explanation_for_native_chinese": "轻声分成多个调值：高平调后 21，中升调后 31，三声类后 41，其它情况 11。",
+    "common_misconception": "轻声不是固定的“第五声”，也不是没有音高。",
+    "notes": "轻声音高依赖前一声调，不能当成固定调值。",
+    "tags": [
+      "tone",
+      "neutral_tone"
+    ],
+    "example_hanzi": "吗、的、子",
+    "example_word": "好吗 /xɑu̯˨˩˦ ma/"
+  }
+]

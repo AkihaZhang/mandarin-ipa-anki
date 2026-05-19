@@ -1,0 +1,767 @@
+[
+  {
+    "ipa_a": "[p]",
+    "pinyin_a": "b",
+    "example_a": "爸 bà",
+    "ipa_b": "[pʰ]",
+    "pinyin_b": "p",
+    "example_b": "怕 pà",
+    "minimal_pairs": "爸 bà / 怕 pà；办 bàn / 盼 pàn",
+    "core_difference": "不送气 vs 送气；二者都是清双唇塞音。",
+    "explanation_for_native_chinese": "b/p 的普通话核心对立不是清浊，而是释放时有没有明显气流。",
+    "common_misconception": "不要套用英语 b/p 的清浊框架来解释普通话。",
+    "tags": [
+      "contrast",
+      "aspiration",
+      "bilabial"
+    ]
+  },
+  {
+    "ipa_a": "[t]",
+    "pinyin_a": "d",
+    "example_a": "大 dà",
+    "ipa_b": "[tʰ]",
+    "pinyin_b": "t",
+    "example_b": "他 tā",
+    "minimal_pairs": "大 dà / 踏 tà；到 dào / 套 tào",
+    "core_difference": "不送气 vs 送气；二者都是清舌尖塞音。",
+    "explanation_for_native_chinese": "d/t 的发音位置相近，t 多了送气。",
+    "common_misconception": "d 不是英语 d 那样稳定的浊音。",
+    "tags": [
+      "contrast",
+      "aspiration",
+      "alveolar"
+    ]
+  },
+  {
+    "ipa_a": "[k]",
+    "pinyin_a": "g",
+    "example_a": "哥 gē",
+    "ipa_b": "[kʰ]",
+    "pinyin_b": "k",
+    "example_b": "科 kē",
+    "minimal_pairs": "哥 gē / 科 kē；该 gāi / 开 kāi",
+    "core_difference": "不送气 vs 送气；二者都是清舌根塞音。",
+    "explanation_for_native_chinese": "g/k 的差别在于 [k] 释放时不强送气，[kʰ] 释放时送气明显。",
+    "common_misconception": "普通话 g 不是英语 go 里的 [g]。",
+    "tags": [
+      "contrast",
+      "aspiration",
+      "velar"
+    ]
+  },
+  {
+    "ipa_a": "[ts]",
+    "pinyin_a": "z",
+    "example_a": "字 zì",
+    "ipa_b": "[tsʰ]",
+    "pinyin_b": "c",
+    "example_b": "次 cì",
+    "minimal_pairs": "字 zì / 次 cì；在 zài / 菜 cài",
+    "core_difference": "不送气平舌塞擦音 vs 送气平舌塞擦音。",
+    "explanation_for_native_chinese": "z/c 的发音位置和塞擦性质相近，c 多了送气。",
+    "common_misconception": "z 不是英语 z，c 也不是英语 c。",
+    "tags": [
+      "contrast",
+      "aspiration",
+      "affricate",
+      "alveolar"
+    ]
+  },
+  {
+    "ipa_a": "[t͡ʂ]",
+    "pinyin_a": "zh",
+    "example_a": "知 zhī",
+    "ipa_b": "[t͡ʂʰ]",
+    "pinyin_b": "ch",
+    "example_b": "吃 chī",
+    "minimal_pairs": "知 zhī / 吃 chī；站 zhàn / 颤 chàn",
+    "core_difference": "不送气卷舌塞擦音 vs 送气卷舌塞擦音。",
+    "explanation_for_native_chinese": "zh/ch 都是卷舌塞擦音，ch 的 [ʰ] 表示送气。",
+    "common_misconception": "不要把 ch 理解成“更重的 zh”；关键是送气。",
+    "tags": [
+      "contrast",
+      "aspiration",
+      "retroflex",
+      "affricate"
+    ]
+  },
+  {
+    "ipa_a": "[ts]",
+    "pinyin_a": "z",
+    "example_a": "资 zī",
+    "ipa_b": "[t͡ʂ]",
+    "pinyin_b": "zh",
+    "example_b": "知 zhī",
+    "minimal_pairs": "资 zī / 知 zhī；在 zài / 摘 zhāi",
+    "core_difference": "平舌 vs 卷舌；二者都是不送气塞擦音。",
+    "explanation_for_native_chinese": "z 的舌位较前，zh 带卷舌/齿龈后色彩。",
+    "common_misconception": "z/zh 不是轻重差异，而是舌位差异。",
+    "tags": [
+      "contrast",
+      "retroflex",
+      "alveolar"
+    ]
+  },
+  {
+    "ipa_a": "[tsʰ]",
+    "pinyin_a": "c",
+    "example_a": "词 cí",
+    "ipa_b": "[t͡ʂʰ]",
+    "pinyin_b": "ch",
+    "example_b": "吃 chī",
+    "minimal_pairs": "词 cí / 吃 chī；擦 cā / 插 chā",
+    "core_difference": "平舌送气塞擦音 vs 卷舌送气塞擦音。",
+    "explanation_for_native_chinese": "c/ch 都送气，但 c 平舌，ch 卷舌。",
+    "common_misconception": "不要把 c/ch 只看成拼音字母长短不同。",
+    "tags": [
+      "contrast",
+      "retroflex",
+      "aspiration"
+    ]
+  },
+  {
+    "ipa_a": "[s]",
+    "pinyin_a": "s",
+    "example_a": "四 sì",
+    "ipa_b": "[ʂ]",
+    "pinyin_b": "sh",
+    "example_b": "是 shì",
+    "minimal_pairs": "四 sì / 是 shì；桑 sāng / 伤 shāng",
+    "core_difference": "平舌擦音 vs 卷舌擦音。",
+    "explanation_for_native_chinese": "s 舌位较前，sh 舌位较后并带卷舌色彩。",
+    "common_misconception": "sh 不是把 s 发得更粗，而是舌位不同。",
+    "tags": [
+      "contrast",
+      "retroflex",
+      "fricative"
+    ]
+  },
+  {
+    "ipa_a": "[t͡ɕ]",
+    "pinyin_a": "j",
+    "example_a": "机 jī",
+    "ipa_b": "[t͡ɕʰ]",
+    "pinyin_b": "q",
+    "example_b": "七 qī",
+    "minimal_pairs": "机 jī / 七 qī；家 jiā / 掐 qiā",
+    "core_difference": "不送气龈腭塞擦音 vs 送气龈腭塞擦音。",
+    "explanation_for_native_chinese": "j/q 的区别和 b/p、d/t 一样，核心是送气。",
+    "common_misconception": "q 不是 ch；j/q/x 是龈腭音组。",
+    "tags": [
+      "contrast",
+      "aspiration",
+      "alveolo-palatal"
+    ]
+  },
+  {
+    "ipa_a": "[ɕ]",
+    "pinyin_a": "x",
+    "example_a": "西 xī",
+    "ipa_b": "[ʂ]",
+    "pinyin_b": "sh",
+    "example_b": "师 shī",
+    "minimal_pairs": "西 xī / 师 shī；先 xiān / 山 shān",
+    "core_difference": "龈腭擦音 vs 卷舌擦音。",
+    "explanation_for_native_chinese": "x 的舌面更靠前、更贴近硬腭前部；sh 带卷舌色彩。",
+    "common_misconception": "x 和 sh 不是同一个音的软硬变化。",
+    "tags": [
+      "contrast",
+      "alveolo-palatal",
+      "retroflex"
+    ]
+  },
+  {
+    "ipa_a": "[n]",
+    "pinyin_a": "n / -n",
+    "example_a": "南 nán、安 ān",
+    "ipa_b": "[ŋ]",
+    "pinyin_b": "-ng",
+    "example_b": "昂 áng、灯 dēng",
+    "minimal_pairs": "安 ān / 昂 áng；陈 chén / 成 chéng",
+    "core_difference": "舌尖鼻音 vs 舌根鼻音。",
+    "explanation_for_native_chinese": "[n] 用舌尖收尾或起头，[ŋ] 用舌根收尾，普通话 [ŋ] 主要出现在韵尾。",
+    "common_misconception": "ng 的 g 不读成 [g]；它表示后鼻音 [ŋ]。",
+    "tags": [
+      "contrast",
+      "nasal",
+      "coda"
+    ]
+  },
+  {
+    "ipa_a": "[an]",
+    "pinyin_a": "an",
+    "example_a": "安 ān",
+    "ipa_b": "[ɑŋ]",
+    "pinyin_b": "ang",
+    "example_b": "昂 áng",
+    "minimal_pairs": "安 ān / 昂 áng；班 bān / 帮 bāng",
+    "core_difference": "前鼻音韵尾 [n] vs 后鼻音韵尾 [ŋ]。",
+    "explanation_for_native_chinese": "an 结尾舌尖靠前，ang 结尾舌根抬起。",
+    "common_misconception": "an/ang 不是单纯口腔开合大小不同；鼻音韵尾位置是核心。",
+    "tags": [
+      "contrast",
+      "front_nasal",
+      "back_nasal"
+    ]
+  },
+  {
+    "ipa_a": "[ən]",
+    "pinyin_a": "en",
+    "example_a": "恩 ēn",
+    "ipa_b": "[əŋ]",
+    "pinyin_b": "eng",
+    "example_b": "鞥 ēng",
+    "minimal_pairs": "陈 chén / 成 chéng；真 zhēn / 蒸 zhēng",
+    "core_difference": "前鼻音韵尾 [n] vs 后鼻音韵尾 [ŋ]。",
+    "explanation_for_native_chinese": "en/eng 的主元音相近，韵尾位置不同。",
+    "common_misconception": "eng 的 g 不是一个爆破音。",
+    "tags": [
+      "contrast",
+      "front_nasal",
+      "back_nasal"
+    ]
+  },
+  {
+    "ipa_a": "[in]",
+    "pinyin_a": "in",
+    "example_a": "音 yīn",
+    "ipa_b": "[iŋ]",
+    "pinyin_b": "ing",
+    "example_b": "英 yīng",
+    "minimal_pairs": "音 yīn / 英 yīng；亲 qīn / 轻 qīng",
+    "core_difference": "高前元音后的 [n] vs [ŋ] 韵尾。",
+    "explanation_for_native_chinese": "in 收在舌尖前鼻音，ing 收在舌根后鼻音。",
+    "common_misconception": "ing 不是 in 加一个读出来的 g。",
+    "tags": [
+      "contrast",
+      "front_nasal",
+      "back_nasal",
+      "high_vowel"
+    ]
+  },
+  {
+    "ipa_a": "[u]",
+    "pinyin_a": "u",
+    "example_a": "路 lù",
+    "ipa_b": "[y]",
+    "pinyin_b": "ü",
+    "example_b": "绿 lǜ",
+    "minimal_pairs": "路 lù / 绿 lǜ；肚 dù / 句 jù（后者拼音 u 实为 ü 类）",
+    "core_difference": "后高圆唇元音 vs 前高圆唇元音。",
+    "explanation_for_native_chinese": "[u] 舌位靠后，[y] 舌位靠前但仍圆唇。",
+    "common_misconception": "ju/qu/xu 的 u 不是 [u]，而是 [y] 类。",
+    "tags": [
+      "contrast",
+      "vowel",
+      "front_rounded"
+    ]
+  },
+  {
+    "ipa_a": "[i]",
+    "pinyin_a": "i (yi/mi/ji)",
+    "example_a": "衣 yī、米 mǐ、机 jī",
+    "ipa_b": "[ɿ] / [ʅ]",
+    "pinyin_b": "i (zi/ci/si; zhi/chi/shi/ri)",
+    "example_b": "字 zì、知 zhī",
+    "minimal_pairs": "衣 yī / 资 zī / 知 zhī；米 mǐ / 子 zǐ",
+    "core_difference": "普通高前元音 vs 舌尖元音。",
+    "explanation_for_native_chinese": "普通 [i] 舌面前部高；舌尖元音延续 z/c/s 或 zh/ch/sh/r 的舌尖姿态。",
+    "common_misconception": "拼音都写 i，不代表 IPA 都是 [i]。",
+    "tags": [
+      "contrast",
+      "apical_vowel",
+      "vowel"
+    ]
+  },
+  {
+    "ipa_a": "[ɤ]",
+    "pinyin_a": "e",
+    "example_a": "鹅 é、哥 gē",
+    "ipa_b": "[ɚ]",
+    "pinyin_b": "er",
+    "example_b": "儿 ér、二 èr",
+    "minimal_pairs": "鹅 é / 儿 ér；个 gè / 个儿 gèr",
+    "core_difference": "普通后/央不圆唇韵母 vs 卷舌元音。",
+    "explanation_for_native_chinese": "er 带 r 色彩和卷舌性质，不是简单的 e 加声母 r。",
+    "common_misconception": "er 和 e 不能只按拼音字母相似来理解。",
+    "tags": [
+      "contrast",
+      "rhotic",
+      "vowel"
+    ]
+  },
+  {
+    "ipa_a": "[m]",
+    "pinyin_a": "m",
+    "example_a": "妈 mā",
+    "ipa_b": "[n]",
+    "pinyin_b": "n",
+    "example_b": "那 nà",
+    "core_difference": "双唇鼻音 vs 舌尖鼻音。",
+    "explanation_for_native_chinese": "m 用双唇闭合，n 用舌尖接触上齿龈附近。",
+    "common_misconception": "二者都是鼻音，但发音部位不同。",
+    "tags": [
+      "contrast",
+      "nasal",
+      "place"
+    ]
+  },
+  {
+    "ipa_a": "[n]",
+    "pinyin_a": "n",
+    "example_a": "年 nián",
+    "ipa_b": "[l]",
+    "pinyin_b": "l",
+    "example_b": "连 lián",
+    "minimal_pairs": "男 nán / 蓝 lán；年 nián / 连 lián",
+    "core_difference": "鼻音 vs 边音。",
+    "explanation_for_native_chinese": "n 气流从鼻腔出，l 气流从舌头两侧通过。",
+    "common_misconception": "n/l 不只是口音差别；在普通话音系中是不同声母。",
+    "tags": [
+      "contrast",
+      "nasal",
+      "lateral"
+    ]
+  },
+  {
+    "ipa_a": "[f]",
+    "pinyin_a": "f",
+    "example_a": "发 fā",
+    "ipa_b": "[x]",
+    "pinyin_b": "h",
+    "example_b": "哈 hā",
+    "minimal_pairs": "发 fā / 哈 hā；饭 fàn / 汉 hàn",
+    "core_difference": "唇齿擦音 vs 舌根擦音。",
+    "explanation_for_native_chinese": "f 的摩擦在上齿和下唇之间，h 的摩擦在舌根和软腭附近。",
+    "common_misconception": "f/h 的区别不是声调或轻重，而是发音部位。",
+    "tags": [
+      "contrast",
+      "fricative",
+      "place"
+    ]
+  },
+  {
+    "ipa_a": "[x]",
+    "pinyin_a": "h",
+    "example_a": "喝 hē",
+    "ipa_b": "[ɕ]",
+    "pinyin_b": "x",
+    "example_b": "些 xiē",
+    "minimal_pairs": "喝 hē / 些 xiē；海 hǎi / 写 xiě（近最小对立）",
+    "core_difference": "舌根擦音 vs 龈腭擦音。",
+    "explanation_for_native_chinese": "h 更靠后，x 更靠前且接近 i/ü 类环境。",
+    "common_misconception": "拼音 h 和 x 都像“摩擦音”，但发音部位差得很远。",
+    "tags": [
+      "contrast",
+      "fricative",
+      "place"
+    ]
+  },
+  {
+    "ipa_a": "[ts]",
+    "pinyin_a": "z",
+    "example_a": "在 zài",
+    "ipa_b": "[s]",
+    "pinyin_b": "s",
+    "example_b": "赛 sài",
+    "minimal_pairs": "在 zài / 赛 sài；早 zǎo / 扫 sǎo",
+    "core_difference": "塞擦音 vs 擦音。",
+    "explanation_for_native_chinese": "z 先有短暂阻塞再摩擦释放，s 只有摩擦。",
+    "common_misconception": "z 不等于浊的 s。",
+    "tags": [
+      "contrast",
+      "affricate",
+      "fricative"
+    ]
+  },
+  {
+    "ipa_a": "[t͡ʂ]",
+    "pinyin_a": "zh",
+    "example_a": "这 zhè",
+    "ipa_b": "[ʂ]",
+    "pinyin_b": "sh",
+    "example_b": "设 shè",
+    "minimal_pairs": "这 zhè / 设 shè；找 zhǎo / 少 shǎo",
+    "core_difference": "卷舌塞擦音 vs 卷舌擦音。",
+    "explanation_for_native_chinese": "zh 先闭塞再摩擦释放，sh 是持续摩擦。",
+    "common_misconception": "zh/sh 不是只差一个 h；发音方法不同。",
+    "tags": [
+      "contrast",
+      "retroflex",
+      "manner"
+    ]
+  },
+  {
+    "ipa_a": "[t͡ʂʰ]",
+    "pinyin_a": "ch",
+    "example_a": "车 chē",
+    "ipa_b": "[ʂ]",
+    "pinyin_b": "sh",
+    "example_b": "奢 shē",
+    "minimal_pairs": "车 chē / 奢 shē；吵 chǎo / 少 shǎo",
+    "core_difference": "送气卷舌塞擦音 vs 卷舌擦音。",
+    "explanation_for_native_chinese": "ch 有塞擦和送气，sh 是单纯擦音。",
+    "common_misconception": "ch 不是 sh 加重，也不是 zh 加 h 的拼写游戏。",
+    "tags": [
+      "contrast",
+      "retroflex",
+      "manner",
+      "aspiration"
+    ]
+  },
+  {
+    "ipa_a": "[t͡ɕ]",
+    "pinyin_a": "j",
+    "example_a": "机 jī",
+    "ipa_b": "[ɕ]",
+    "pinyin_b": "x",
+    "example_b": "西 xī",
+    "minimal_pairs": "机 jī / 西 xī；家 jiā / 瞎 xiā",
+    "core_difference": "龈腭塞擦音 vs 龈腭擦音。",
+    "explanation_for_native_chinese": "j 有短暂阻塞，x 没有阻塞，只是摩擦。",
+    "common_misconception": "j 不是 x 的浊音；普通话 j 是清的不送气塞擦音。",
+    "tags": [
+      "contrast",
+      "alveolo-palatal",
+      "manner"
+    ]
+  },
+  {
+    "ipa_a": "[t͡ɕʰ]",
+    "pinyin_a": "q",
+    "example_a": "七 qī",
+    "ipa_b": "[ɕ]",
+    "pinyin_b": "x",
+    "example_b": "西 xī",
+    "minimal_pairs": "七 qī / 西 xī；掐 qiā / 瞎 xiā",
+    "core_difference": "送气龈腭塞擦音 vs 龈腭擦音。",
+    "explanation_for_native_chinese": "q 有塞擦和送气，x 是擦音。",
+    "common_misconception": "q/x 的差别不是普通话拼音字母形状，而是发音方法。",
+    "tags": [
+      "contrast",
+      "alveolo-palatal",
+      "manner",
+      "aspiration"
+    ]
+  },
+  {
+    "ipa_a": "[p]",
+    "pinyin_a": "b",
+    "example_a": "爸 bà",
+    "ipa_b": "[m]",
+    "pinyin_b": "m",
+    "example_b": "妈 mā",
+    "core_difference": "双唇塞音 vs 双唇鼻音。",
+    "explanation_for_native_chinese": "b 和 m 都用双唇，但 b 口腔阻塞后释放，m 气流从鼻腔通过。",
+    "common_misconception": "同一发音部位不代表同一种发音方法。",
+    "tags": [
+      "contrast",
+      "manner",
+      "bilabial"
+    ]
+  },
+  {
+    "ipa_a": "[t]",
+    "pinyin_a": "d",
+    "example_a": "大 dà",
+    "ipa_b": "[n]",
+    "pinyin_b": "n",
+    "example_b": "那 nà",
+    "core_difference": "舌尖塞音 vs 舌尖鼻音。",
+    "explanation_for_native_chinese": "d 口腔阻塞后释放，n 让气流从鼻腔通过。",
+    "common_misconception": "d/n 都是舌尖参与，但发音方法不同。",
+    "tags": [
+      "contrast",
+      "manner",
+      "alveolar"
+    ]
+  },
+  {
+    "ipa_a": "[k]",
+    "pinyin_a": "g",
+    "example_a": "哥 gē",
+    "ipa_b": "[x]",
+    "pinyin_b": "h",
+    "example_b": "喝 hē",
+    "core_difference": "舌根塞音 vs 舌根擦音。",
+    "explanation_for_native_chinese": "g 有完全阻塞后释放，h 是舌根附近的摩擦。",
+    "common_misconception": "g/h 都靠后，但一个是塞音，一个是擦音。",
+    "tags": [
+      "contrast",
+      "manner",
+      "velar"
+    ]
+  },
+  {
+    "ipa_a": "[i]",
+    "pinyin_a": "i",
+    "example_a": "衣 yī",
+    "ipa_b": "[y]",
+    "pinyin_b": "ü",
+    "example_b": "鱼 yú",
+    "core_difference": "前高不圆唇 vs 前高圆唇。",
+    "explanation_for_native_chinese": "[i] 和 [y] 舌位都靠前靠高，区别主要在圆唇。",
+    "common_misconception": "ü 不是 u 的简单变体；从舌位看它更接近 i。",
+    "tags": [
+      "contrast",
+      "vowel",
+      "rounding"
+    ]
+  },
+  {
+    "ipa_a": "[ai]",
+    "pinyin_a": "ai",
+    "example_a": "爱 ài",
+    "ipa_b": "[ei]",
+    "pinyin_b": "ei",
+    "example_b": "诶 ēi",
+    "core_difference": "起点更开 vs 起点更高/更前。",
+    "explanation_for_native_chinese": "ai 从较开的 [a] 起，ei 从中前附近起，二者都向 [i] 滑动。",
+    "common_misconception": "不要只按拼音第一个字母相似来判断音值。",
+    "tags": [
+      "contrast",
+      "diphthong",
+      "vowel"
+    ]
+  },
+  {
+    "ipa_a": "[au]",
+    "pinyin_a": "ao",
+    "example_a": "奥 ào",
+    "ipa_b": "[ou]",
+    "pinyin_b": "ou",
+    "example_b": "欧 ōu",
+    "core_difference": "从较开的 [a] 滑向 [u] vs 从 [o] 附近滑向 [u]。",
+    "explanation_for_native_chinese": "ao/ou 都向圆唇后高方向滑动，但开头音值不同。",
+    "common_misconception": "ao 的 IPA 常写 [au]，不能按拼音字母 o 机械理解。",
+    "tags": [
+      "contrast",
+      "diphthong",
+      "vowel"
+    ]
+  },
+  {
+    "ipa_a": "[jɛn]",
+    "pinyin_a": "ian",
+    "example_a": "烟 yān",
+    "ipa_b": "[jɑŋ]",
+    "pinyin_b": "iang",
+    "example_b": "央 yāng",
+    "core_difference": "前鼻音韵尾 [n] 且主元音较前 vs 后鼻音韵尾 [ŋ] 且主元音较后。",
+    "explanation_for_native_chinese": "ian/iang 的区别同时牵涉主元音和鼻音韵尾。",
+    "common_misconception": "不要把 iang 看成 ian 加一个读出来的 g。",
+    "tags": [
+      "contrast",
+      "front_nasal",
+      "back_nasal",
+      "medial_i"
+    ]
+  },
+  {
+    "ipa_a": "[wan]",
+    "pinyin_a": "uan",
+    "example_a": "弯 wān",
+    "ipa_b": "[yɛn]",
+    "pinyin_b": "üan",
+    "example_b": "元 yuán",
+    "core_difference": "u 类介音 [w] vs ü 类前圆唇介音 [y]。",
+    "explanation_for_native_chinese": "uan 和 üan 的关键不在 n，而在开头介音的圆唇前后。",
+    "common_misconception": "juan/quan/xuan/yuan 不按 [wan] 读。",
+    "tags": [
+      "contrast",
+      "front_rounded",
+      "medial"
+    ]
+  },
+  {
+    "ipa_a": "[wən]",
+    "pinyin_a": "un (uen)",
+    "example_a": "温 wēn、轮 lún",
+    "ipa_b": "[yn]",
+    "pinyin_b": "ün",
+    "example_b": "云 yún、群 qún",
+    "core_difference": "u/uen 类 [wən] vs ü 类 [yn]。",
+    "explanation_for_native_chinese": "拼音 un 有两类读法：lun/chun 类是 uen 省写，jun/qun/xun/yun 类是 ün。",
+    "common_misconception": "看到 un 不要自动写成同一个 IPA。",
+    "tags": [
+      "contrast",
+      "spelling_abbreviation",
+      "front_rounded"
+    ]
+  },
+  {
+    "ipa_a": "[jɛ]",
+    "pinyin_a": "ie",
+    "example_a": "也 yě、写 xiě",
+    "ipa_b": "[yɛ]",
+    "pinyin_b": "üe",
+    "example_b": "月 yuè、学 xué",
+    "core_difference": "i 类介音 vs ü 类前圆唇介音。",
+    "explanation_for_native_chinese": "ie 和 üe 的 e 都接近 [ɛ]，区别主要在前面的介音是否圆唇。",
+    "common_misconception": "xue/que/jue 的 u 不是 [u]，而是 ü 类。",
+    "tags": [
+      "contrast",
+      "front_rounded",
+      "medial"
+    ]
+  },
+  {
+    "ipa_a": "[ʊŋ]",
+    "pinyin_a": "ong",
+    "example_a": "东 dōng",
+    "ipa_b": "[jʊŋ]",
+    "pinyin_b": "iong",
+    "example_b": "用 yòng",
+    "core_difference": "无 i 类介音 vs 有 i 类介音。",
+    "explanation_for_native_chinese": "iong 可理解为带 [j] 介音的 ong 类韵母。",
+    "common_misconception": "iong 不是 i+o+n+g 的逐字母拼接。",
+    "tags": [
+      "contrast",
+      "medial_i",
+      "back_nasal"
+    ]
+  },
+  {
+    "ipa_a": "[ts]",
+    "pinyin_a": "z",
+    "example_a": "资 zī",
+    "ipa_b": "[t͡ɕ]",
+    "pinyin_b": "j",
+    "example_b": "机 jī",
+    "core_difference": "舌尖前塞擦音 vs 龈腭塞擦音。",
+    "explanation_for_native_chinese": "z 和 j 都是不送气塞擦音，但发音部位不同，j 只和 i/ü 类韵母相拼。",
+    "common_misconception": "j 不是 z 在 i 前的随意读法；普通话音系把它作为独立声母组处理。",
+    "tags": [
+      "contrast",
+      "alveolar",
+      "alveolo-palatal"
+    ]
+  },
+  {
+    "ipa_a": "[t͡ʂ]",
+    "pinyin_a": "zh",
+    "example_a": "知 zhī",
+    "ipa_b": "[t͡ɕ]",
+    "pinyin_b": "j",
+    "example_b": "机 jī",
+    "core_difference": "卷舌塞擦音 vs 龈腭塞擦音。",
+    "explanation_for_native_chinese": "zh 舌位靠后且卷舌，j 舌面前部更靠近硬腭前部。",
+    "common_misconception": "zh 和 j 不是同一个声母在不同韵母前的拼写变化。",
+    "tags": [
+      "contrast",
+      "retroflex",
+      "alveolo-palatal"
+    ]
+  },
+  {
+    "ipa_a": "[ʂ]",
+    "pinyin_a": "sh",
+    "example_a": "是 shì",
+    "ipa_b": "[ɻ]",
+    "pinyin_b": "r",
+    "example_b": "日 rì",
+    "core_difference": "清卷舌擦音 vs 浊卷舌近音/擦音。",
+    "explanation_for_native_chinese": "sh 不振动声带，r 通常有声带振动，并带卷舌色彩。",
+    "common_misconception": "r 不是简单的 sh 加声带振动；不同资料对 r 的擦音/近音性质也有差异。",
+    "tags": [
+      "contrast",
+      "retroflex",
+      "voicing"
+    ]
+  },
+  {
+    "ipa_a": "[əŋ]",
+    "pinyin_a": "eng",
+    "example_a": "灯 dēng",
+    "ipa_b": "[ʊŋ]",
+    "pinyin_b": "ong",
+    "example_b": "东 dōng",
+    "core_difference": "不圆唇央元音加 [ŋ] vs 圆唇后元音加 [ŋ]。",
+    "explanation_for_native_chinese": "eng/ong 都以后鼻音结尾，但主元音圆唇和前后不同。",
+    "common_misconception": "不要只看到 ng 就忽略前面元音的差别。",
+    "tags": [
+      "contrast",
+      "back_nasal",
+      "rounded"
+    ]
+  },
+  {
+    "ipa_a": "[ja]",
+    "pinyin_a": "ia",
+    "example_a": "呀 yā、家 jiā",
+    "ipa_b": "[wa]",
+    "pinyin_b": "ua",
+    "example_b": "蛙 wā、花 huā",
+    "core_difference": "i 类介音 [j] vs u 类介音 [w]。",
+    "explanation_for_native_chinese": "ia 和 ua 的主元音都可接近 [a]，但开头介音不同。",
+    "common_misconception": "介音不是拼音里随便多出的字母，它对应真实的滑音/元音过渡。",
+    "tags": [
+      "contrast",
+      "medial_i",
+      "medial_u"
+    ]
+  },
+  {
+    "ipa_a": "[jou]",
+    "pinyin_a": "iu (iou)",
+    "example_a": "有 yǒu、六 liù",
+    "ipa_b": "[wei]",
+    "pinyin_b": "ui (uei)",
+    "example_b": "威 wēi、对 duì",
+    "core_difference": "iou 省写 vs uei 省写；介音方向不同。",
+    "explanation_for_native_chinese": "iu/ui 都是拼音省写，但 iu 来自 iou，ui 来自 uei。",
+    "common_misconception": "不要按拼音字面把 iu 写成 [iu]、把 ui 写成 [ui]。",
+    "tags": [
+      "contrast",
+      "spelling_abbreviation"
+    ]
+  },
+  {
+    "ipa_a": "[ɿ]",
+    "pinyin_a": "zi/ci/si 的 i",
+    "example_a": "字 zì、词 cí、四 sì",
+    "ipa_b": "[ʅ]",
+    "pinyin_b": "zhi/chi/shi/ri 的 i",
+    "example_b": "知 zhī、吃 chī、是 shì、日 rì",
+    "core_difference": "平舌环境的舌尖元音 vs 卷舌环境的舌尖元音。",
+    "explanation_for_native_chinese": "两者都不是普通 [i]，但 [ɿ] 跟 z/c/s 的平舌位置相关，[ʅ] 跟卷舌位置相关。",
+    "common_misconception": "拼音都写 i，不代表 IPA 相同。",
+    "tags": [
+      "contrast",
+      "apical_vowel",
+      "retroflex"
+    ]
+  },
+  {
+    "ipa_a": "[˥]",
+    "pinyin_a": "第一声",
+    "example_a": "妈 mā",
+    "ipa_b": "[˥˩]",
+    "pinyin_b": "第四声",
+    "example_b": "骂 mà",
+    "core_difference": "高平调 vs 高降调。",
+    "explanation_for_native_chinese": "第一声保持高位，第四声从高位快速下降。",
+    "common_misconception": "声调不是重音；IPA 调符表达的是音高轮廓。",
+    "tags": [
+      "contrast",
+      "tone"
+    ]
+  },
+  {
+    "ipa_a": "[˧˥]",
+    "pinyin_a": "第二声",
+    "example_a": "麻 má",
+    "ipa_b": "[˨˩˦]",
+    "pinyin_b": "第三声",
+    "example_b": "马 mǎ",
+    "core_difference": "上升调 vs 降升调/低调。",
+    "explanation_for_native_chinese": "第二声主要上升；第三声单字可降升，但语流中常读半三声。",
+    "common_misconception": "第三声不总是完整拐弯，连续说话时常发生变调或半三声。",
+    "tags": [
+      "contrast",
+      "tone",
+      "tone_sandhi"
+    ]
+  }
+]

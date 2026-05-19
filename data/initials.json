@@ -1,0 +1,550 @@
+[
+  {
+    "pinyin": "x",
+    "ipa": "[ɕ]",
+    "example_hanzi": "习",
+    "example_word": "学习 /ɕɥɛ˧˥ ɕi˧˥/",
+    "articulation": "龈腭、清、擦音；只出现在 i/ü 类高前元音或介音前。",
+    "explanation_for_native_chinese": "拼音 x 对应到 [ɕ]。它不是 [s]，舌面位置更靠近硬腭。",
+    "common_misconception": "不要把 x/sh/s 都当成同一个“擦音”；三者部位不同。",
+    "notes": "龈腭音后总是 i、j 或 ü、ɥ 类音。",
+    "tags": [
+      "consonant",
+      "fricative",
+      "alveolo-palatal"
+    ]
+  },
+  {
+    "pinyin": "f",
+    "ipa": "[f]",
+    "example_hanzi": "父",
+    "example_word": "方法 /fɑŋ˥ fa˨˩˦/",
+    "articulation": "唇齿、清、擦音。",
+    "explanation_for_native_chinese": "上齿接近下唇形成摩擦，对应拼音 f。",
+    "common_misconception": "f 不是双唇音，和 b/p/m 的发音部位不同。",
+    "notes": "用于识别普通话辅音符号。",
+    "tags": [
+      "consonant",
+      "fricative",
+      "labiodental"
+    ]
+  },
+  {
+    "pinyin": "g",
+    "ipa": "[k]",
+    "example_hanzi": "戈",
+    "example_word": "国家 /kwo˧˥ t͡ɕja˥/",
+    "articulation": "软腭、清、不送气、塞音。",
+    "explanation_for_native_chinese": "拼音 g 在对应 [k]，是清不送气塞音。",
+    "common_misconception": "普通话 g 不是英语 go 里那种浊 [g]。",
+    "notes": "普通话 g/k 的核心区别是送气与否。",
+    "tags": [
+      "consonant",
+      "stop",
+      "unaspirated",
+      "velar"
+    ]
+  },
+  {
+    "pinyin": "k",
+    "ipa": "[kʰ]",
+    "example_hanzi": "克",
+    "example_word": "科学 /kʰɤ˥ ɕɥɛ˧˥/",
+    "articulation": "软腭、清、送气、塞音。",
+    "explanation_for_native_chinese": "拼音 k 对应 [kʰ]，上标 ʰ 表示送气。",
+    "common_misconception": "不要把 k 理解成“更重的 g”；关键是送气 [kʰ]。",
+    "notes": "送气塞音用上标 ʰ 标出。",
+    "tags": [
+      "consonant",
+      "stop",
+      "aspirated",
+      "velar"
+    ]
+  },
+  {
+    "pinyin": "l",
+    "ipa": "[l]",
+    "example_hanzi": "力",
+    "example_word": "蓝天 /lan˧˥ tʰjɛn˥/",
+    "articulation": "齿龈、浊、边音。",
+    "explanation_for_native_chinese": "舌尖接触齿龈附近，气流从舌侧通过。",
+    "common_misconception": "l 不是鼻音；不要和 n 混成一类。",
+    "notes": "用于识别普通话辅音符号。",
+    "tags": [
+      "consonant",
+      "lateral",
+      "voiced"
+    ]
+  },
+  {
+    "pinyin": "m-",
+    "ipa": "[m]",
+    "example_hanzi": "木",
+    "example_word": "美妙 /meɪ˨˩˦ mjɑʊ˥˩/",
+    "articulation": "双唇、浊、鼻音。",
+    "explanation_for_native_chinese": "双唇闭合，气流从鼻腔出来。",
+    "common_misconception": "m 和 b/p 都是双唇音，但 m 是鼻音。",
+    "notes": " m- 表示声母位置的 m。",
+    "tags": [
+      "consonant",
+      "nasal",
+      "bilabial"
+    ]
+  },
+  {
+    "pinyin": "n- / -n",
+    "ipa": "[n]",
+    "example_hanzi": "拿",
+    "example_word": "南方 /nan˧˥ fɑŋ˥/",
+    "articulation": "齿龈、浊、鼻音；可作声母或前鼻音韵尾。",
+    "explanation_for_native_chinese": "声母 n- 和韵尾 -n 归到 [n]。",
+    "common_misconception": "声母 n 和韵尾 -n 位置不同，但音值上同属齿龈鼻音。",
+    "notes": "表中注音列也把 -n 与 ㄢ、ㄣ 等前鼻音韵尾联系起来。",
+    "tags": [
+      "consonant",
+      "nasal",
+      "coda"
+    ]
+  },
+  {
+    "pinyin": "ni/ü(-)",
+    "ipa": "[nʲ]",
+    "example_hanzi": "尼",
+    "example_word": "年轻 /nʲɛn˧˥ t͡ɕʰiŋ˥/",
+    "articulation": "带腭化的齿龈鼻音。",
+    "explanation_for_native_chinese": " ni/ü 类环境中的 n 写作 [nʲ]，用 ʲ 表示腭化。",
+    "common_misconception": "这不是另一个普通话声母，而是 n 在高前元音环境中的细化写法。",
+    "notes": "此项比常见入门宽式更窄，保留是为了识别较细的写法。",
+    "tags": [
+      "consonant",
+      "nasal",
+      "palatalized"
+    ]
+  },
+  {
+    "pinyin": "-ng",
+    "ipa": "[ŋ]",
+    "example_hanzi": "应",
+    "example_word": "声音 /ʂɤŋ˥ jin˥/",
+    "articulation": "软腭、浊、鼻音；普通话后鼻音韵尾。",
+    "explanation_for_native_chinese": "拼音 -ng 在对应 [ŋ]。",
+    "common_misconception": "ng 不是 n 加 g 两个音，而是一个软腭鼻音。",
+    "notes": "例词中还把零声母前的喉塞音写成 [ʔ]。",
+    "tags": [
+      "consonant",
+      "nasal",
+      "velar",
+      "coda"
+    ]
+  },
+  {
+    "pinyin": "b",
+    "ipa": "[p]",
+    "example_hanzi": "八",
+    "example_word": "北京 /peɪ˨˩˦ t͡ɕiŋ˥/",
+    "articulation": "双唇、清、不送气、塞音。",
+    "explanation_for_native_chinese": "拼音 b 对应 [p]，不是 [b]。",
+    "common_misconception": "普通话 b/p 的区别是送气，不是英语式清浊。",
+    "notes": "这是中文母语者读普通话 IPA 最重要的入口之一。",
+    "tags": [
+      "consonant",
+      "stop",
+      "unaspirated",
+      "bilabial"
+    ]
+  },
+  {
+    "pinyin": "p",
+    "ipa": "[pʰ]",
+    "example_hanzi": "皮",
+    "example_word": "皮肤 /pʰi˧˥ fʋ̩˥/",
+    "articulation": "双唇、清、送气、塞音。",
+    "explanation_for_native_chinese": "拼音 p 对应 [pʰ]，释放时有明显送气。",
+    "common_misconception": "不要把 p 理解成 [p] 的大声版；上标 ʰ 才是关键。",
+    "notes": "用于识别普通话辅音符号。",
+    "tags": [
+      "consonant",
+      "stop",
+      "aspirated",
+      "bilabial"
+    ]
+  },
+  {
+    "pinyin": "r-",
+    "ipa": "[ɻ] ~ [ʐ]",
+    "example_hanzi": "入",
+    "example_word": "人民 /ɻən˧˥ min˧˥/",
+    "articulation": "卷舌近音或卷舌擦音分析；普通话 r。",
+    "explanation_for_native_chinese": "r- 可标成 [ɻ] ~ [ʐ]，说明资料中有不同分析。",
+    "common_misconception": "不要把 r 简单理解成英文 r；普通话 r 是卷舌类音。",
+    "notes": "正面保留两个写法，提示宽式/窄式和学派差异。",
+    "tags": [
+      "consonant",
+      "retroflex",
+      "approximant",
+      "fricative"
+    ]
+  },
+  {
+    "pinyin": "s",
+    "ipa": "[s]",
+    "example_hanzi": "色",
+    "example_word": "思索 /sɹ̩˥ swo˨˩˦/",
+    "articulation": "齿龈、清、擦音。",
+    "explanation_for_native_chinese": "拼音 s 对应 [s]，是平舌擦音。",
+    "common_misconception": "s 和 sh 的区别不是轻重，而是平舌与卷舌。",
+    "notes": "用于识别普通话辅音符号。",
+    "tags": [
+      "consonant",
+      "fricative",
+      "alveolar"
+    ]
+  },
+  {
+    "pinyin": "sh",
+    "ipa": "[ʂ]",
+    "example_hanzi": "十",
+    "example_word": "生活 /ʂɤŋ˥ xwo˧˥/",
+    "articulation": "卷舌、清、擦音。",
+    "explanation_for_native_chinese": "拼音 sh 对应 [ʂ]，例词还显示后面的 i 可写成卷舌音节辅音 [ɻ̩]。",
+    "common_misconception": "shi 里的 i 不是普通 [i]。",
+    "notes": "这里使用 [ɻ̩] 表示 zhi/chi/shi/ri 一类后的音节性卷舌音。",
+    "tags": [
+      "consonant",
+      "fricative",
+      "retroflex"
+    ]
+  },
+  {
+    "pinyin": "d",
+    "ipa": "[t]",
+    "example_hanzi": "大",
+    "example_word": "大地 /ta˥˩ ti˥˩/",
+    "articulation": "齿龈、清、不送气、塞音。",
+    "explanation_for_native_chinese": "拼音 d 在对应 [t]，不是 [d]。",
+    "common_misconception": "普通话 d/t 的核心区别是送气，不是清浊。",
+    "notes": "用于识别普通话辅音符号。",
+    "tags": [
+      "consonant",
+      "stop",
+      "unaspirated",
+      "alveolar"
+    ]
+  },
+  {
+    "pinyin": "t",
+    "ipa": "[tʰ]",
+    "example_hanzi": "土",
+    "example_word": "天空 /tʰjɛn˥ kʰʊŋ˥/",
+    "articulation": "齿龈、清、送气、塞音。",
+    "explanation_for_native_chinese": "拼音 t 对应 [tʰ]，上标 ʰ 表示送气。",
+    "common_misconception": "t 不是更用力的 d。",
+    "notes": "用于识别普通话辅音符号。",
+    "tags": [
+      "consonant",
+      "stop",
+      "aspirated",
+      "alveolar"
+    ]
+  },
+  {
+    "pinyin": "j",
+    "ipa": "[t͡ɕ]",
+    "example_hanzi": "几",
+    "example_word": "经济 /t͡ɕiŋ˥ t͡ɕi˥˩/",
+    "articulation": "龈腭、清、不送气、塞擦音。",
+    "explanation_for_native_chinese": "拼音 j 对应 [t͡ɕ]，不是英语 j 的浊音。",
+    "common_misconception": "j/q 的区别也是不送气与送气。",
+    "notes": "连音符 ͡ 表示塞擦音内部的塞音和擦音成分同属一个音。",
+    "tags": [
+      "consonant",
+      "affricate",
+      "unaspirated",
+      "alveolo-palatal"
+    ]
+  },
+  {
+    "pinyin": "q",
+    "ipa": "[t͡ɕʰ]",
+    "example_hanzi": "七",
+    "example_word": "清泉 /t͡ɕʰiŋ˥ t͡ɕʰɥæn˧˥/",
+    "articulation": "龈腭、清、送气、塞擦音。",
+    "explanation_for_native_chinese": "拼音 q 对应 [t͡ɕʰ]，是送气龈腭塞擦音。",
+    "common_misconception": "q 不是英语 q，也不是 [k] 类音。",
+    "notes": "补充说明：龈腭音后总是 i/j 或 ü/ɥ 类音。",
+    "tags": [
+      "consonant",
+      "affricate",
+      "aspirated",
+      "alveolo-palatal"
+    ]
+  },
+  {
+    "pinyin": "z",
+    "ipa": "[t͡s]",
+    "example_hanzi": "子",
+    "example_word": "昨天 /t͡swo˧˥ tʰjɛn˥/",
+    "articulation": "齿龈、清、不送气、塞擦音。",
+    "explanation_for_native_chinese": "拼音 z 在对应 [t͡s]。",
+    "common_misconception": "拼音 z 不是 IPA [z]；[z] 在另有语流环境说明。",
+    "notes": "zi/ci/si 后的 i 在这里写作 [ɹ̩]。",
+    "tags": [
+      "consonant",
+      "affricate",
+      "unaspirated",
+      "alveolar"
+    ]
+  },
+  {
+    "pinyin": "c",
+    "ipa": "[t͡sʰ]",
+    "example_hanzi": "次",
+    "example_word": "从前 /t͡sʰʊŋ˧˥ t͡ɕʰjɛn˧˥/",
+    "articulation": "齿龈、清、送气、塞擦音。",
+    "explanation_for_native_chinese": "拼音 c 对应 [t͡sʰ]，是送气平舌塞擦音。",
+    "common_misconception": "c 不是英语 c，而是 z 的送气对应音。",
+    "notes": "用于识别普通话辅音符号。",
+    "tags": [
+      "consonant",
+      "affricate",
+      "aspirated",
+      "alveolar"
+    ]
+  },
+  {
+    "pinyin": "zh",
+    "ipa": "[ʈ͡ʂ]",
+    "example_hanzi": "至",
+    "example_word": "真正 /ʈ͡ʂən˥ ʈ͡ʂɤŋ˥˩/",
+    "articulation": "卷舌、清、不送气、塞擦音。",
+    "explanation_for_native_chinese": " zh 写作 [ʈ͡ʂ]，比常见 [t͡ʂ] 更强调卷舌塞音部位。",
+    "common_misconception": "zh 和 z 的核心区别是卷舌，不是音量或声调。",
+    "notes": "有些资料写 [t͡ʂ]；这里写 [ʈ͡ʂ]。",
+    "tags": [
+      "consonant",
+      "affricate",
+      "retroflex",
+      "unaspirated"
+    ]
+  },
+  {
+    "pinyin": "ch",
+    "ipa": "[ʈ͡ʂʰ]",
+    "example_hanzi": "叉",
+    "example_word": "吃饭 /ʈ͡ʂʰɻ̩˥ fan˥˩/",
+    "articulation": "卷舌、清、送气、塞擦音。",
+    "explanation_for_native_chinese": "拼音 ch 对应 [ʈ͡ʂʰ]，是 zh 的送气对应音。",
+    "common_misconception": "不要把 ch 理解成“更重的 zh”；关键是带送气。",
+    "notes": "有些资料写 [t͡ʂʰ]；这里写 [ʈ͡ʂʰ]。",
+    "tags": [
+      "consonant",
+      "affricate",
+      "retroflex",
+      "aspirated"
+    ]
+  },
+  {
+    "pinyin": "h",
+    "ipa": "[x] ~ [h]",
+    "example_hanzi": "互",
+    "example_word": "互相 /xu˥˩ ɕjɑŋ˥/",
+    "articulation": "软腭或声门附近、清、擦音。",
+    "explanation_for_native_chinese": "拼音 h 可标成 [x] ~ [h]，提示资料可有不同细化。",
+    "common_misconception": "普通话 h 不一定等同英语 h。",
+    "notes": "这里保留两个常见写法。",
+    "tags": [
+      "consonant",
+      "fricative",
+      "velar"
+    ]
+  },
+  {
+    "pinyin": "连读“啊”等环境",
+    "ipa": "[z]",
+    "example_hanzi": "撕啊",
+    "example_word": "撕啊 /sɹ̩˥ zä˨˩/",
+    "articulation": "齿龈、浊、擦音；语流连读变体。",
+    "explanation_for_native_chinese": "说明 [z] 出现在拼音 c/s/zi 和语气词“啊”连读等环境。",
+    "common_misconception": "不要把拼音 z 读成 IPA [z]；普通话拼音 z 的常规 IPA 是 [t͡s]。",
+    "notes": "这是语流环境音，不是普通话常规声母 z 的主条目。",
+    "tags": [
+      "consonant",
+      "fricative",
+      "voiced",
+      "sandhi"
+    ]
+  },
+  {
+    "pinyin": "零声母/连读环境",
+    "ipa": "[ʔ]",
+    "example_hanzi": "偶尔",
+    "example_word": "偶尔 /ʔou̯˩˦ ʔäɚ̯˨˩˦/",
+    "articulation": "声门、清、塞音。",
+    "explanation_for_native_chinese": "某些 a/e/o/w/y 开头或连读环境中的起始闭塞写作 [ʔ]。",
+    "common_misconception": "零声母不一定表示完全没有任何起始动作；资料中可能标出喉塞音。",
+    "notes": "补充说明： [ʔ] 与前字连读等条件相关，不宜机械套到所有零声母。",
+    "tags": [
+      "consonant",
+      "glottal_stop",
+      "zero_initial"
+    ]
+  },
+  {
+    "pinyin": "-i- / y",
+    "ipa": "[j]",
+    "example_hanzi": "牙",
+    "example_word": "牙齿 /ja˧˥ t͡ʂʰɻ̍˨˩˦/",
+    "articulation": "硬腭近音；i 类介音。",
+    "explanation_for_native_chinese": "半元音表把 -i-、y 对应到 [j]。",
+    "common_misconception": "拼音 y 很多时候不是像 b/p/m 那样的普通声母，而是 i 类介音或拼写标记。",
+    "notes": "用于识别普通话半元音符号。",
+    "tags": [
+      "semivowel",
+      "palatal"
+    ]
+  },
+  {
+    "pinyin": "c(h)/s(h)/z(h)ir",
+    "ipa": "[ɉ]",
+    "example_hanzi": "事儿",
+    "example_word": "事儿 /ʂɉɚ˥˩/",
+    "articulation": "儿化环境中的半元音式过渡。",
+    "explanation_for_native_chinese": "半元音表列出 [ɉ]，用于 c/ch/s/sh/z/zh + ir 的儿化环境。",
+    "common_misconception": "这不是普通话基础声母，而是为了标儿化细节的表格项。",
+    "notes": "这个符号用于儿化细节识别，不建议入门时过度背诵。",
+    "tags": [
+      "semivowel",
+      "erhua"
+    ]
+  },
+  {
+    "pinyin": "-u- / w",
+    "ipa": "[w]",
+    "example_hanzi": "瓦",
+    "example_word": "外文 /waɪ˥˩ wən˧˥/",
+    "articulation": "唇软腭近音；u 类介音。",
+    "explanation_for_native_chinese": "半元音表把 -u-、w 对应到 [w]。",
+    "common_misconception": "拼音 w 很多时候是 u 类介音或拼写标记，不等同于一个独立声母。",
+    "notes": "用于识别普通话半元音符号。",
+    "tags": [
+      "semivowel",
+      "labiovelar"
+    ]
+  },
+  {
+    "pinyin": "j/q/x/yu-, -ü-",
+    "ipa": "[ɥ]",
+    "example_hanzi": "月",
+    "example_word": "月亮 /ɥɛ˥˩ ljɑŋ˥˩/",
+    "articulation": "唇硬腭近音；ü 类介音。",
+    "explanation_for_native_chinese": "半元音表把 j/q/x/yu- 和 -ü- 环境对应到 [ɥ]。",
+    "common_misconception": "ju/qu/xu/yu 里的 u 不是 [u]，而是 ü 类音。",
+    "notes": "补充说明： Ü 于 j/q/x/y 后拼作 u，因为这些位置不会出现 [u]/[w]。",
+    "tags": [
+      "semivowel",
+      "front_rounded"
+    ]
+  },
+  {
+    "pinyin": "m",
+    "ipa": "[m̩]",
+    "example_hanzi": "呣",
+    "example_word": "呣 /m̩˧˥/",
+    "articulation": "成音节双唇鼻音。",
+    "explanation_for_native_chinese": "音节辅音表把“呣”的 m 写作 [m̩]。",
+    "common_misconception": "这里的 m 自己成一个音节，不是普通声母后面再接韵母。",
+    "notes": "符号下方小竖线表示成音节。",
+    "tags": [
+      "syllabic_consonant",
+      "nasal"
+    ]
+  },
+  {
+    "pinyin": "hm",
+    "ipa": "[m̥]",
+    "example_hanzi": "噷",
+    "example_word": "噷 /m̥˧˩/",
+    "articulation": "清化双唇鼻音。",
+    "explanation_for_native_chinese": "音节辅音表把 hm 对应到 [m̥]。",
+    "common_misconception": "清化符号 ̥ 表示无声或清化，不是声调符号。",
+    "notes": "这个符号较边缘，主要用于识别较细的写法。",
+    "tags": [
+      "syllabic_consonant",
+      "nasal",
+      "voiceless"
+    ]
+  },
+  {
+    "pinyin": "n",
+    "ipa": "[n̩]",
+    "example_hanzi": "唔",
+    "example_word": "唔 /n̩˧˥/",
+    "articulation": "成音节齿龈鼻音。",
+    "explanation_for_native_chinese": "音节辅音表列出 [n̩]。",
+    "common_misconception": "这不是普通 n 声母加一个省略的韵母，而是鼻音成音节。",
+    "notes": "这个符号较边缘，主要用于识别较细的写法。",
+    "tags": [
+      "syllabic_consonant",
+      "nasal"
+    ]
+  },
+  {
+    "pinyin": "ng",
+    "ipa": "[ŋ̍]",
+    "example_hanzi": "嗯",
+    "example_word": "嗯 /ŋ̍˧˥/",
+    "articulation": "成音节软腭鼻音。",
+    "explanation_for_native_chinese": "音节辅音表把 ng 对应到 [ŋ̍]。",
+    "common_misconception": "ng 可以作为韵尾，也可以在叹词等词中成音节。",
+    "notes": "上方成音节符号和 [ŋ] 的普通韵尾用法要区分。",
+    "tags": [
+      "syllabic_consonant",
+      "nasal",
+      "velar"
+    ]
+  },
+  {
+    "pinyin": "hng",
+    "ipa": "[ŋ̊]",
+    "example_hanzi": "哼",
+    "example_word": "哼 /ŋ̊˧˩/",
+    "articulation": "清化软腭鼻音。",
+    "explanation_for_native_chinese": "音节辅音表把 hng 对应到 [ŋ̊]。",
+    "common_misconception": "圆圈符号表示清化，不是轻声或声调。",
+    "notes": "这个符号较边缘，主要用于识别较细的写法。",
+    "tags": [
+      "syllabic_consonant",
+      "nasal",
+      "voiceless"
+    ]
+  },
+  {
+    "pinyin": "c/s/zi",
+    "ipa": "[ɹ̩]",
+    "example_hanzi": "四",
+    "example_word": "四次 /sɹ̩˥˩ t͡sʰɹ̩˥˩/",
+    "articulation": "成音节齿龈近音；zi/ci/si 后的韵核。",
+    "explanation_for_native_chinese": " [ɹ̩] 表示 zi/ci/si 一类后面的 i。",
+    "common_misconception": "zi/ci/si 的 i 不读普通 [i]。",
+    "notes": "其他资料可能写 [ɿ] 或成音节擦音；这里采用这组写法。",
+    "tags": [
+      "syllabic_consonant",
+      "apical"
+    ]
+  },
+  {
+    "pinyin": "ch/r/sh/zhi",
+    "ipa": "[ɻ̩]",
+    "example_hanzi": "日",
+    "example_word": "日常 /ɻ̩˥˩ ʈ͡ʂʰɑŋ˧˥/",
+    "articulation": "成音节卷舌近音；zhi/chi/shi/ri 后的韵核。",
+    "explanation_for_native_chinese": " [ɻ̩] 表示 zhi/chi/shi/ri 一类后面的 i。",
+    "common_misconception": "zhi/chi/shi/ri 的 i 不读普通 [i]。",
+    "notes": "其他资料可能写 [ʅ]；这里采用这组写法。",
+    "tags": [
+      "syllabic_consonant",
+      "apical",
+      "retroflex"
+    ]
+  }
+]

@@ -1,0 +1,456 @@
+[
+  {
+    "concept": "IPA 表格的用途",
+    "simple_definition": "这张表说明参考资料条目里如何用 IPA 表示现代标准汉语发音。",
+    "mandarin_examples": [
+      "习 /ɕi˧˥/",
+      "八 /pä˥˥/",
+      "工 /kʊŋ˥˥/"
+    ],
+    "ipa_examples": [
+      "[ɕ]",
+      "[ä]",
+      "[ʊ]",
+      "˥˥"
+    ],
+    "why_it_matters_for_native_chinese": "它不是儿童拼音表，而是给已经会普通话的人读条目音标用的发音指南。",
+    "common_misconception": "不要把某一种普通话 IPA 写法当成唯一标准；不同资料可能采用不同宽窄程度。",
+    "notes": "目标是读懂普通话 IPA 表格中的符号、音值和例词。",
+    "tags": [
+      "concept"
+    ]
+  },
+  {
+    "concept": "斜线 / / 的读法",
+    "simple_definition": "例词多用 / / 包住整段 IPA，表示音位或较宽的条目读音。",
+    "mandarin_examples": [
+      "八 /pä˥˥/",
+      "七 /t͡ɕʰi˥˥/",
+      "二 /ʔäɚ̯˥˩/"
+    ],
+    "ipa_examples": [
+      "/pä˥˥/",
+      "/t͡ɕʰi˥˥/",
+      "/ʔäɚ̯˥˩/"
+    ],
+    "why_it_matters_for_native_chinese": "你需要能从完整例词里拆出声母、韵母和声调，而不是只看单个符号。",
+    "common_misconception": "斜线里的每个符号不一定都是独立拼音字母对应物。",
+    "notes": "卡片正面仍用单项 IPA，背面给例词作为环境。",
+    "tags": [
+      "concept",
+      "transcription"
+    ]
+  },
+  {
+    "concept": "拼音不是 IPA",
+    "simple_definition": "汉语拼音是拼写系统，IPA 是音值系统；同一个拼音字母可能对应完全不同的 IPA。",
+    "mandarin_examples": [
+      "pinyin b = [p]",
+      "pinyin p = [pʰ]",
+      "pinyin z = [t͡s]"
+    ],
+    "ipa_examples": [
+      "[p]",
+      "[pʰ]",
+      "[t͡s]",
+      "[z]"
+    ],
+    "why_it_matters_for_native_chinese": "拼音 b/d/g/z/zh/j 都不是英语式浊音。",
+    "common_misconception": "不要把拼音 z 机械看成 IPA [z]；这里 [z] 是语流变体。",
+    "notes": "这是读普通话 IPA 时最重要的防误解点。",
+    "tags": [
+      "concept",
+      "pinyin"
+    ]
+  },
+  {
+    "concept": "注音不是 IPA",
+    "simple_definition": "注音符号和拼音一样，是普通话拼写/标注系统，不是 IPA。",
+    "mandarin_examples": [
+      "ㄅ 对应拼音 b，但 IPA 是 [p]",
+      "ㄑ 对应拼音 q，但 IPA 是 [t͡ɕʰ]"
+    ],
+    "ipa_examples": [
+      "[p]",
+      "[t͡ɕʰ]",
+      "[ɥ]"
+    ],
+    "why_it_matters_for_native_chinese": "IPA、拼音、注音三列不能机械一一替换。",
+    "common_misconception": "注音符号看起来更“发音化”，但仍不是国际音标。",
+    "notes": "重点训练 IPA 列。",
+    "tags": [
+      "concept",
+      "bopomofo"
+    ]
+  },
+  {
+    "concept": "范例音节怎么读",
+    "simple_definition": "范例列给出汉字和完整 IPA，用来展示该符号在实际普通话环境中的位置。",
+    "mandarin_examples": [
+      "叉 /ʈ͡ʂʰä˥˥/",
+      "夜 /je̞˥˩/",
+      "延 /jɛn˧˥/"
+    ],
+    "ipa_examples": [
+      "[ʈ͡ʂʰ]",
+      "[e̞]",
+      "[ɛ]"
+    ],
+    "why_it_matters_for_native_chinese": "有些 IPA 只在特定拼音环境中出现，不能脱离例词硬背。",
+    "common_misconception": "表里的例词不是让你学普通话发音，而是帮你定位 IPA 音值。",
+    "notes": "音频只作为背面辅助，不作为判断依据。",
+    "tags": [
+      "concept",
+      "examples"
+    ]
+  },
+  {
+    "concept": "送气",
+    "simple_definition": "送气音用上标 ʰ 表示， p/t/k/c/ch/q 对应的 IPA 都带 ʰ。",
+    "mandarin_examples": [
+      "皮 /pʰi˧˥/",
+      "土 /tʰu˨˩˦/",
+      "七 /t͡ɕʰi˥˥/"
+    ],
+    "ipa_examples": [
+      "[pʰ]",
+      "[tʰ]",
+      "[kʰ]",
+      "[t͡sʰ]",
+      "[ʈ͡ʂʰ]",
+      "[t͡ɕʰ]"
+    ],
+    "why_it_matters_for_native_chinese": "普通话很多声母对立靠送气区分。",
+    "common_misconception": "不要把送气理解成“读得更重”，也不要和清浊对立混在一起。",
+    "notes": "这里把不送气和送气成对列出。",
+    "tags": [
+      "concept",
+      "aspiration"
+    ]
+  },
+  {
+    "concept": "不送气",
+    "simple_definition": "不送气塞音/塞擦音没有上标 ʰ；拼音 b/d/g/z/zh/j 在都属于不送气。",
+    "mandarin_examples": [
+      "八 /pä˥˥/",
+      "大 /tä˥˩/",
+      "子 /t͡sɹ̩˨˩˦/"
+    ],
+    "ipa_examples": [
+      "[p]",
+      "[t]",
+      "[k]",
+      "[t͡s]",
+      "[ʈ͡ʂ]",
+      "[t͡ɕ]"
+    ],
+    "why_it_matters_for_native_chinese": "这能避免把拼音 b/d/g 当作英语式浊音。",
+    "common_misconception": "不送气不等于浊音。",
+    "notes": "普通话音系中这组对立以送气为核心。",
+    "tags": [
+      "concept",
+      "unaspirated"
+    ]
+  },
+  {
+    "concept": "塞音",
+    "simple_definition": "塞音是气流先被完全阻塞再释放；的 [p pʰ t tʰ k kʰ ʔ] 都可按塞音理解。",
+    "mandarin_examples": [
+      "八 /pä˥˥/",
+      "土 /tʰu˨˩˦/",
+      "偶尔 /ʔou̯˩˦ʔäɚ̯˨˩˦/"
+    ],
+    "ipa_examples": [
+      "[p]",
+      "[pʰ]",
+      "[t]",
+      "[tʰ]",
+      "[k]",
+      "[kʰ]",
+      "[ʔ]"
+    ],
+    "why_it_matters_for_native_chinese": "塞音是理解 b/p、d/t、g/k 和零声母细节的基础。",
+    "common_misconception": "拼音 b/d/g 的字母外形不决定它们是浊塞音。",
+    "notes": "这里还列出喉塞音 [ʔ] 的特定环境。",
+    "tags": [
+      "concept",
+      "stop"
+    ]
+  },
+  {
+    "concept": "塞擦音",
+    "simple_definition": "塞擦音先闭塞再摩擦释放，连音符 ͡ 标示。",
+    "mandarin_examples": [
+      "几 /t͡ɕi˨˩˦/",
+      "子 /t͡sɹ̩˨˩˦/",
+      "至 /ʈ͡ʂɻ̩˥˩/"
+    ],
+    "ipa_examples": [
+      "[t͡ɕ]",
+      "[t͡ɕʰ]",
+      "[t͡s]",
+      "[t͡sʰ]",
+      "[ʈ͡ʂ]",
+      "[ʈ͡ʂʰ]"
+    ],
+    "why_it_matters_for_native_chinese": "z/c、zh/ch、j/q 都不是单纯擦音。",
+    "common_misconception": "拼音 z 不是 IPA [z]。",
+    "notes": "有些资料会省略连音符；这里保留连音符，方便看清塞擦音结构。",
+    "tags": [
+      "concept",
+      "affricate"
+    ]
+  },
+  {
+    "concept": "擦音",
+    "simple_definition": "擦音是气流通过狭窄通道摩擦产生的辅音。",
+    "mandarin_examples": [
+      "父 /fu˥˩/",
+      "色 /sɤ˥˩/",
+      "习 /ɕi˧˥/"
+    ],
+    "ipa_examples": [
+      "[f]",
+      "[s]",
+      "[ʂ]",
+      "[ɕ]",
+      "[x] ~ [h]",
+      "[z]"
+    ],
+    "why_it_matters_for_native_chinese": "它帮助区分 s/sh/x/h/f 以及语流中的 [z]。",
+    "common_misconception": "有摩擦感不代表发音部位相同。",
+    "notes": " h 写作 [x] ~ [h]，提示可有不同细化。",
+    "tags": [
+      "concept",
+      "fricative"
+    ]
+  },
+  {
+    "concept": "鼻音",
+    "simple_definition": "鼻音是气流从鼻腔出来的音，包含 [m n nʲ ŋ] 以及成音节鼻音。",
+    "mandarin_examples": [
+      "木 /mu˥˩/",
+      "拿 /nä˧˥/",
+      "嗯 /ŋ̍˧˥/"
+    ],
+    "ipa_examples": [
+      "[m]",
+      "[n]",
+      "[nʲ]",
+      "[ŋ]",
+      "[m̩]",
+      "[ŋ̍]"
+    ],
+    "why_it_matters_for_native_chinese": "它把声母鼻音、韵尾鼻音和成音节鼻音放在同一个系统中理解。",
+    "common_misconception": "ng 不是 n + g。",
+    "notes": "还列出清化鼻音 [m̥]、[ŋ̊]。",
+    "tags": [
+      "concept",
+      "nasal"
+    ]
+  },
+  {
+    "concept": "半元音",
+    "simple_definition": "半元音是接近元音但在音节中作介音/滑音的音。",
+    "mandarin_examples": [
+      "牙 /jä˧˥/",
+      "瓦 /wä˨˩˦/",
+      "月 /ɥœ̜˥˩/"
+    ],
+    "ipa_examples": [
+      "[j]",
+      "[w]",
+      "[ɥ]",
+      "[ɉ]"
+    ],
+    "why_it_matters_for_native_chinese": "它能解释拼音 y/w 和 ü 类介音，不把它们误当普通声母。",
+    "common_misconception": "拼音 y/w 在很多时候是拼写或介音体现，不一定是传统声母。",
+    "notes": "半元音常单独列出，方便理解 i/u/ü 类介音。",
+    "tags": [
+      "concept",
+      "semivowel"
+    ]
+  },
+  {
+    "concept": "音节辅音",
+    "simple_definition": "音节辅音是不依靠普通元音也能成音节的辅音。",
+    "mandarin_examples": [
+      "呣 /m̩˧˥/",
+      "嗯 /ŋ̍˧˥/",
+      "四 /sɹ̩˥˩/",
+      "日 /ɻ̩˥˩/"
+    ],
+    "ipa_examples": [
+      "[m̩]",
+      "[n̩]",
+      "[ŋ̍]",
+      "[ɹ̩]",
+      "[ɻ̩]"
+    ],
+    "why_it_matters_for_native_chinese": "它解释了 zi/ci/si、zhi/chi/shi/ri 后面的 i 为什么不写成 [i]。",
+    "common_misconception": "拼音 i 不总是 IPA [i]。",
+    "notes": "这里使用 [ɹ̩] 和 [ɻ̩]，而不是旧卡组里的 [ɿ]/[ʅ]。",
+    "tags": [
+      "concept",
+      "syllabic_consonant",
+      "apical"
+    ]
+  },
+  {
+    "concept": "卷舌音",
+    "simple_definition": "卷舌音涉及舌尖后缩或卷起，包括 [ʂ]、[ʈ͡ʂ]、[ʈ͡ʂʰ]、[ɻ] 等。",
+    "mandarin_examples": [
+      "十 /ʂɻ̩˧˥/",
+      "至 /ʈ͡ʂɻ̩˥˩/",
+      "入 /ɻu˥˩/"
+    ],
+    "ipa_examples": [
+      "[ʂ]",
+      "[ʈ͡ʂ]",
+      "[ʈ͡ʂʰ]",
+      "[ɻ]",
+      "[ɻ̩]"
+    ],
+    "why_it_matters_for_native_chinese": "它是平翘舌和 zhi/chi/shi/ri 韵核的核心。",
+    "common_misconception": "zh/ch/sh/r 不只是 z/c/s 加重。",
+    "notes": " [ʈ͡ʂ] 系列而不是 [t͡ʂ] 系列。",
+    "tags": [
+      "concept",
+      "retroflex"
+    ]
+  },
+  {
+    "concept": "龈腭音",
+    "simple_definition": "龈腭音是 j/q/x 对应的一组舌面前部音。",
+    "mandarin_examples": [
+      "习 /ɕi˧˥/",
+      "几 /t͡ɕi˨˩˦/",
+      "七 /t͡ɕʰi˥˥/"
+    ],
+    "ipa_examples": [
+      "[ɕ]",
+      "[t͡ɕ]",
+      "[t͡ɕʰ]"
+    ],
+    "why_it_matters_for_native_chinese": "它解释 j/q/x 为什么只能接 i/ü 类音。",
+    "common_misconception": "j/q/x 不是 zh/ch/sh 的简单变体，也不是 g/k/h。",
+    "notes": "补充说明说明 /ɕ, d͡ʑ, t͡ɕ/ 后总是 i/j 或 u/w 类高前环境。",
+    "tags": [
+      "concept",
+      "alveolo-palatal"
+    ]
+  },
+  {
+    "concept": "元音环境变体",
+    "simple_definition": "同一个拼音韵母字母在不同环境中可用不同 IPA 元音符号细分。",
+    "mandarin_examples": [
+      "安 /ʔan˥˥/",
+      "阿 /ʔä˥˥/",
+      "昂 /ʔɑŋ˧˥/",
+      "仍 /ɻɤ̞ŋ˧˥/"
+    ],
+    "ipa_examples": [
+      "[a]",
+      "[ä]",
+      "[ɑ]",
+      "[ɤ]",
+      "[ɤ̞]"
+    ],
+    "why_it_matters_for_native_chinese": "较细的标音会区分同一拼音字母在不同环境中的音值。",
+    "common_misconception": "不要把拼音字母和 IPA 符号硬做一一对应。",
+    "notes": "补充说明多次提到元音和谐和韵尾环境。",
+    "tags": [
+      "concept",
+      "vowel",
+      "allophone"
+    ]
+  },
+  {
+    "concept": "拼音省写",
+    "simple_definition": "拼音里 uei、iou、uen 在辅音后分别写作 ui、iu、un。",
+    "mandarin_examples": [
+      "ui 对应 uei",
+      "iu 对应 iou",
+      "un 对应 uen"
+    ],
+    "ipa_examples": [
+      "[ei̯]",
+      "[ou̯]",
+      "[ə]"
+    ],
+    "why_it_matters_for_native_chinese": "ui、iu、un 不能按拼音字母逐个拆成 IPA。",
+    "common_misconception": "ui 不是 [u] + [i] 两个完整元音；iu 也不是 [i] + [u]。",
+    "notes": "本概念来自补充说明 10。",
+    "tags": [
+      "concept",
+      "spelling_abbreviation"
+    ]
+  },
+  {
+    "concept": "轻声",
+    "simple_definition": "轻声没有固定绝对调值，实际音高依赖前一声调。",
+    "mandarin_examples": [
+      "高平调后 21",
+      "中升调后 31",
+      "三声类后 41",
+      "其它情况 11"
+    ],
+    "ipa_examples": [
+      "˨˩",
+      "˧˩",
+      "˦˩",
+      "˩˩"
+    ],
+    "why_it_matters_for_native_chinese": "轻声不能写成一个固定“第五声”。",
+    "common_misconception": "轻声不是完全没有声调。",
+    "notes": "轻声音高依赖前一声调，不能当成固定调值。",
+    "tags": [
+      "concept",
+      "neutral_tone"
+    ]
+  },
+  {
+    "concept": "第三声变调",
+    "simple_definition": "三声在语流中可出现 214、211、14 等不同轮廓。",
+    "mandarin_examples": [
+      "单字啊 /ʔä˨˩˦/",
+      "语流中半三声或变调"
+    ],
+    "ipa_examples": [
+      "˨˩˦",
+      "˨˩˩",
+      "˩˦"
+    ],
+    "why_it_matters_for_native_chinese": "看到多个三声调符时，不要以为互相矛盾。",
+    "common_misconception": "三声不总是完整降升。",
+    "notes": "补充说明把这些写法与变调联系起来。",
+    "tags": [
+      "concept",
+      "tone_sandhi"
+    ]
+  },
+  {
+    "concept": "儿化",
+    "simple_definition": "儿化会改变前面韵母的音值，可见多个只出现在儿化音中的符号。",
+    "mandarin_examples": [
+      "鱼儿 /ɥɚ˧˥/",
+      "包儿 /pɑu̯˞˥˥/",
+      "洞儿 /tʊ̃˞˥˩/"
+    ],
+    "ipa_examples": [
+      "[ɚ]",
+      "[o̞˞]",
+      "[u˞]",
+      "[ɑu̯˞]",
+      "[ʊ̃˞]"
+    ],
+    "why_it_matters_for_native_chinese": "儿化不是简单在拼音后面加 r；读 IPA 时会看到卷舌化、鼻化等标记。",
+    "common_misconception": "所有儿化都写成同一个 er 是不够的。",
+    "notes": "补充说明说明这些带卷舌化的项目只出现在儿化音中。",
+    "tags": [
+      "concept",
+      "erhua",
+      "rhotic"
+    ]
+  }
+]
