@@ -147,7 +147,9 @@ python build_deck.py
 
 ## 稳定更新
 
-本项目固定配置 Deck ID 和 Model ID，并为每张 note 使用稳定 GUID。更新数据后重新构建并导入 Anki 时，已有复习记录会尽量保留。
+本项目固定配置 Deck ID、Model ID 和 note GUID，并从 GUID 派生稳定 note/card 数字 ID。更新数据后重新构建并导入 Anki 时，已有复习记录会尽量保留。
+
+如果本地已经导入出重复条目，建议先备份 Anki 资料库，再删除旧的 `IPA · 普通话` 卡组和对应 note type 后导入最新版。
 
 ## 音频
 

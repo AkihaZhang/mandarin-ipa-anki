@@ -16,6 +16,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 import genanki
+from genanki.note import _fix_deprecated_builtin_models_and_warn
 
 
 PROJECT_DIR = Path(__file__).resolve().parent
@@ -27,6 +28,8 @@ OUTPUT_ATTRIBUTION_PATH = OUTPUT_DIR / "audio_attribution.csv"
 MEDIA_MANIFEST_PATH = MEDIA_DIR / "audio_manifest.csv"
 VARIETY_SLUG = "mandarin"
 INCLUDE_AUDIO = True
+STABLE_ID_EPOCH_MS = 1_779_235_200_000  # 2026-05-20T00:00:00Z
+STABLE_ID_HASH_SPAN_MS = 30 * 24 * 60 * 60 * 1000
 
 DECK_IDS = {
     "ipa_consonant": 2051702801,
@@ -656,6 +659,12 @@ def stable_guid(*parts: Any) -> str:
     return "mipa-" + hashlib.sha1(raw.encode("utf-8")).hexdigest()
 
 
+def stable_int_id(kind: str, *parts: Any) -> int:
+    raw = "|".join([kind, *(str(part) for part in parts)])
+    digest = int(hashlib.sha1(raw.encode("utf-8")).hexdigest()[:14], 16)
+    return STABLE_ID_EPOCH_MS + (digest % STABLE_ID_HASH_SPAN_MS)
+
+
 def text_field(value: Any) -> str:
     if value is None:
         return ""
@@ -905,6 +914,70 @@ def fields_for_note(
     ]
 
 
+class StableNote(genanki.Note):
+    def __init__(
+        self,
+        *,
+        note_id: int,
+        seen_card_ids: set[int],
+        **kwargs: Any,
+    ) -> None:
+        super().__init__(**kwargs)
+        self.note_id = note_id
+        self.seen_card_ids = seen_card_ids
+
+    def write_to_db(self, cursor, timestamp: float, deck_id, id_gen) -> None:  # type: ignore[no-untyped-def]
+        self.fields = _fix_deprecated_builtin_models_and_warn(self.model, self.fields)
+        self._check_number_model_fields_matches_num_fields()
+        self._check_invalid_html_tags_in_fields()
+        cursor.execute(
+            "INSERT INTO notes VALUES(?,?,?,?,?,?,?,?,?,?,?);",
+            (
+                self.note_id,
+                self.guid,
+                self.model.model_id,
+                int(timestamp),
+                -1,
+                self._format_tags(),
+                self._format_fields(),
+                self.sort_field,
+                0,
+                0,
+                "",
+            ),
+        )
+
+        for card in self.cards:
+            card_id = stable_int_id("card", self.guid, card.ord)
+            if card_id in self.seen_card_ids:
+                raise ValueError(f"出现重复 card_id：{card_id}，来源：{self.guid}:{card.ord}")
+            self.seen_card_ids.add(card_id)
+            queue = -1 if card.suspend else 0
+            cursor.execute(
+                "INSERT INTO cards VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);",
+                (
+                    card_id,
+                    self.note_id,
+                    deck_id,
+                    card.ord,
+                    int(timestamp),
+                    -1,
+                    0,
+                    queue,
+                    self.due,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    "",
+                ),
+            )
+
+
 def add_note(
     deck: genanki.Deck,
     model: genanki.Model,
@@ -912,12 +985,27 @@ def add_note(
     tags: list[str],
     guid_parts: tuple[Any, ...],
     seen_guids: set[str],
+    seen_note_ids: set[int],
+    seen_card_ids: set[int],
 ) -> None:
     guid = stable_guid(*guid_parts)
     if guid in seen_guids:
-        raise ValueError(f"生成了重复 GUID：{guid}，来源：{guid_parts}")
+        raise ValueError(f"出现重复 GUID：{guid}，来源：{guid_parts}")
     seen_guids.add(guid)
-    deck.add_note(genanki.Note(model=model, fields=fields, tags=tags, guid=guid))
+    note_id = stable_int_id("note", guid)
+    if note_id in seen_note_ids:
+        raise ValueError(f"出现重复 note_id：{note_id}，来源：{guid_parts}")
+    seen_note_ids.add(note_id)
+    deck.add_note(
+        StableNote(
+            model=model,
+            fields=fields,
+            tags=tags,
+            guid=guid,
+            note_id=note_id,
+            seen_card_ids=seen_card_ids,
+        )
+    )
 
 
 def build_deck() -> tuple[int, int, int]:
@@ -952,6 +1040,8 @@ def build_deck() -> tuple[int, int, int]:
         for key in SUBDECK_NAMES
     }
     seen_guids: set[str] = set()
+    seen_note_ids: set[int] = set()
+    seen_card_ids: set[int] = set()
     note_count = 0
     card_count = 0
 
@@ -963,7 +1053,16 @@ def build_deck() -> tuple[int, int, int]:
     ) -> None:
         nonlocal note_count, card_count
         model_key = MODEL_BY_DECK[deck_key]
-        add_note(decks[deck_key], models[model_key], field_values, tags, guid_parts, seen_guids)
+        add_note(
+            decks[deck_key],
+            models[model_key],
+            field_values,
+            tags,
+            guid_parts,
+            seen_guids,
+            seen_note_ids,
+            seen_card_ids,
+        )
         note_count += 1
         card_count += 1
 
